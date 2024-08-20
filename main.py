@@ -13,9 +13,9 @@ def generate_random_number(max_number=2000):
 
 def check_even_odd(number):
     if number % 2 == 0:
-        print("The number is odd.")
-    else:
         print("The number is even.")
+    else:
+        print("The number is odd.")
 
 
 def main():
