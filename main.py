@@ -2,6 +2,12 @@ import random
 
 
 def generate_random_number(max_number=10):
+    """
+    Generate a random number between 1 and max_number.
+
+    Args:
+        max_number (int, optional): The maximum number that can be generated. Defaults to 10.
+    """
     return random.randint(1, max_number)
 
 
