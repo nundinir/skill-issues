@@ -1,7 +1,7 @@
 import random
 
 
-def generate_random_number(max_number=10):
+def generate_random_number(max_number=2000):
     """
     Generate a random number between 1 and max_number.
 
