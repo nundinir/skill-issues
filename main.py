@@ -1,8 +1,14 @@
 import random
 
 
-def generate_random_number():
-    return random.randint(1, 10)
+def generate_random_number(max_number=2000):
+    """
+    Generate a random number between 1 and max_number.
+
+    Args:
+        max_number (int, optional): The maximum number that can be generated. Defaults to 10.
+    """
+    return random.randint(1, max_number)
 
 
 def check_even_odd(number):
@@ -13,7 +19,7 @@ def check_even_odd(number):
 
 
 def main():
-    number = generate_random_number()
+    number = generate_random_number(10)
     print("Generated number:", number)
     check_even_odd(number)
 
